@@ -1,0 +1,31 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <context-param>
+  <param-name>id</param-name>
+  <param-value>100</param-value>
+  </context-param>
+  
+  <servlet>
+  <servlet-name>servlet1</servlet-name>
+  <servlet-class>com.servlet.Servlet1</servlet-class>
+  <init-param>
+  <param-name>name</param-name>
+  <param-value>somasai</param-value>
+  </init-param>
+  
+  <init-param>
+  <param-name>email</param-name>
+  <param-value>somasai@123.com</param-value>
+  </init-param>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>servlet1</servlet-name>
+  <url-pattern>/servlet1</url-pattern>
+  </servlet-mapping>
+</web-app>
